@@ -53,6 +53,17 @@ a {
   outline: transparent;
 }
 
+button {
+  font: inherit;
+  padding: 0;
+  background: none;
+  color: inherit;
+  display: block;
+  border: none;
+  outline: transparent;
+  cursor: pointer;
+}
+
 /* BODY */
 
 body {
