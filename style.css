@@ -1,0 +1,15 @@
+:root {
+  /* COLOR */
+  --clr-blue-100: 210 46% 95%;
+  --clr-blue-300: 212 23% 69%;
+  --clr-blue-400: 214 17% 51%;
+  --clr-blue-600: 217 19% 35%;
+  --clr-white: 0 0% 100%;
+
+  /* FONT FAMILY */
+  --ff-manrope: "Manrope", sans-serif;
+
+  /* FONT WEIGHT */
+  --fw-medium: 500;
+  --fw-bold: 700;
+}
