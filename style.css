@@ -99,6 +99,7 @@ body {
   display: flex;
   flex-direction: column;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  position: relative;
 }
 
 .card__img {
@@ -170,4 +171,16 @@ body {
 .share-btn:is(:hover, :focus-visible) img {
   filter: brightness(0) saturate(100%) invert(94%) sepia(1%) saturate(2911%)
     hue-rotate(190deg) brightness(104%) contrast(95%);
+}
+
+.popup-menu {
+  background: hsl(var(--clr-blue-600));
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.3125rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
