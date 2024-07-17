@@ -192,7 +192,7 @@ main {
   right: 0;
   border-radius: 0 0 0.625rem 0.625rem;
   visibility: hidden;
-  transition: all 1s ease-in-out;
+  transition-duration: 200ms;
 }
 
 .card.show-popup .popup-menu {
@@ -239,7 +239,7 @@ main {
   filter: unset;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
   .card {
     max-width: 45.625rem;
     grid-template-columns: 1fr 1.561fr;
@@ -274,15 +274,15 @@ main {
     inset: auto;
     border-radius: 0.625rem;
     padding: 1.125rem 2.25rem 1.0625rem 2.3125rem;
-    right: -68px;
-    bottom: 96px;
+    right: -4.25rem;
+    bottom: 6rem;
   }
 
   .popup-menu::before {
     content: "";
     position: absolute;
-    width: 20px;
-    height: 20px;
+    width: 1.25rem;
+    height: 1.25rem;
     background: hsl(var(--clr-blue-600));
     left: 50%;
     bottom: 0;
