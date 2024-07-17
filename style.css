@@ -153,3 +153,20 @@ body {
   letter-spacing: 0.0125rem;
   color: hsl(var(--clr-blue-300));
 }
+
+.share-btn {
+  width: 2rem;
+  height: 2rem;
+  background: hsl(var(--clr-blue-100));
+  padding: 0.5625rem 0.5rem 0.625rem 0.5625rem;
+  border-radius: 100%;
+}
+
+.share-btn:is(:hover, :focus-visible) {
+  background: hsl(var(--clr-blue-600));
+}
+
+.share-btn:is(:hover, :focus-visible) img {
+  filter: brightness(0) saturate(100%) invert(94%) sepia(1%) saturate(2911%)
+    hue-rotate(190deg) brightness(104%) contrast(95%);
+}
