@@ -192,11 +192,13 @@ main {
   right: 0;
   border-radius: 0 0 0.625rem 0.625rem;
   visibility: hidden;
+  opacity: 0;
   transition-duration: 200ms;
 }
 
 .card.show-popup .popup-menu {
   visibility: visible;
+  opacity: 1;
 }
 
 .popup-menu__title {
