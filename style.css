@@ -160,6 +160,7 @@ body {
   background: hsl(var(--clr-blue-100));
   padding: 0.5625rem 0.5rem 0.625rem 0.5625rem;
   border-radius: 100%;
+  transition-duration: 200ms;
 }
 
 .share-btn:is(:hover, :focus-visible) {
