@@ -100,3 +100,13 @@ body {
   flex-direction: column;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
 }
+
+.card__img {
+  max-height: 12.5rem;
+  overflow: hidden;
+}
+
+.card__img img {
+  object-fit: cover;
+  object-position: 0 -1.1rem;
+}
