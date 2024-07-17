@@ -88,3 +88,15 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+/* CARD */
+
+.card {
+  max-width: 45.625rem;
+  background: hsl(var(--clr-white));
+  border-radius: 0.625rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+}
