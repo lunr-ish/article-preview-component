@@ -126,3 +126,30 @@ body {
   margin-block: 0.75rem 2rem;
   padding-right: 1px;
 }
+
+.card__author {
+  display: flex;
+  gap: 1rem;
+}
+
+.avatar {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.card__meta-data {
+  flex: 1;
+}
+
+.card__author-name {
+  font-weight: var(--fw-bold);
+  letter-spacing: 0.0125rem;
+  color: hsl(var(--clr-blue-600));
+}
+
+.card__date {
+  letter-spacing: 0.0125rem;
+  color: hsl(var(--clr-blue-300));
+}
