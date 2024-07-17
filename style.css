@@ -192,3 +192,18 @@ body {
   text-transform: uppercase;
   color: hsl(var(--clr-blue-300));
 }
+
+.socials-list {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.socials-link img {
+  transition: 200ms;
+}
+
+.socials-link:is(:hover, :focus-visible) img {
+  scale: 1.1;
+}
