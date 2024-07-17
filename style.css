@@ -155,13 +155,17 @@ body {
   color: hsl(var(--clr-blue-300));
 }
 
-.share-btn {
+.share-btn,
+.popup-menu__share-btn {
   width: 2rem;
   height: 2rem;
-  background: hsl(var(--clr-blue-100));
   padding: 0.5625rem 0.5rem 0.625rem 0.5625rem;
   border-radius: 100%;
   transition-duration: 200ms;
+}
+
+.share-btn {
+  background: hsl(var(--clr-blue-100));
 }
 
 .share-btn:is(:hover, :focus-visible) {
@@ -206,4 +210,21 @@ body {
 
 .socials-link:is(:hover, :focus-visible) img {
   scale: 1.1;
+}
+
+.popup-menu__share-btn {
+  background: hsl(var(--clr-blue-400));
+}
+
+.popup-menu__share-btn img {
+  filter: brightness(0) saturate(100%) invert(94%) sepia(1%) saturate(2911%)
+    hue-rotate(190deg) brightness(104%) contrast(95%);
+}
+
+.popup-menu__share-btn:is(:hover, :focus-visible) {
+  background: hsl(var(--clr-blue-100));
+}
+
+.popup-menu__share-btn:is(:hover, :focus-visible) img {
+  filter: unset;
 }
